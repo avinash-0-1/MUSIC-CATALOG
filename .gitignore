@@ -1,0 +1,72 @@
+# ==========================
+# Frontend (React + Vite)
+# ==========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+frontend/.DS_Store
+
+# ==========================
+# Backend (Spring Boot)
+# ==========================
+backend/.gradle/
+backend/build/
+backend/target/
+backend/out/
+backend/bin/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.log
+backend/.env
+backend/.env.*
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+*.iml
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Temporary files
+# ==========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ==========================
+# Environment
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Package Managers
+# ==========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# Build Artifacts
+# ==========================
+coverage/
